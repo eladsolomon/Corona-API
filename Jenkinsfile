@@ -3,7 +3,6 @@ pipeline {
   stages {
     stage('Build') {
       steps {
-        git branch: 'main', url: 'https://github.com/eladsolomon/testForTheBest'
         withEnv(["HOME=${env.WORKSPACE}"]) {
           sh 'pip install -r requirements.txt --user'
           sh 'python coronaService.py & sleep 3'
