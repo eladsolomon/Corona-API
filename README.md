@@ -5,8 +5,8 @@ The service will run on localhost:8080
 
 
 ## Get Status
-### Request
 Returns a value of success / fail to contact the backend API.
+### Request
     curl localhost:8080/status
 
 ### Response
