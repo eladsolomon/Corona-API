@@ -54,7 +54,7 @@ cases in the last 30 days for a required country.
 # installation:
 
 First download to jenkins the following plugin:
-Docker
+Docker pipeline
   
 # pipeline settings:
 
