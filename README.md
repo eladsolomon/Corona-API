@@ -53,8 +53,16 @@ cases in the last 30 days for a required country.
 
 # installation:
 
-First download to jenkins the following plugin:
-Docker pipeline
+First check that git installed in your computer.
+
+Now go to Manage Jenkins -> Global Tool Configuration ->Git ->Git installation.
+Verify that git is define.
+
+Second download and install Docker.
+
+Thits download to jenkins the following plugin:
+Docker pipeline.
+Docker.
   
 # pipeline settings:
 
