@@ -53,7 +53,7 @@ cases in the last 30 days for a required country.
 
 # installation:
 
-first download to jenkins the following plugin:
+First download to jenkins the following plugin:
 Docker
   
 # pipeline settings:
@@ -75,7 +75,7 @@ Git url: https://github.com/eladsolomon/Corona-API
 
 That's it, you are ready to go!
 
-# running the program:
+# Running the pipeline:
 
 While starting the job by clicking build, you will ask to enter parameters:
 
