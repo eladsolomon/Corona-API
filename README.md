@@ -1,7 +1,50 @@
 # Corona-API
 
-This project include python service that scrapes data from external API and response with JSON format.
+This project include python service that allowed you to send request and recive answer in json format.
 The service will run on localhost:8080
+
+#Using
+## Get Status
+### Request
+
+    curl localhost:8080/status
+
+### Response
+
+    {“status”: “success”}
+
+## Get new cases peak
+    
+### Request
+
+    curl localhost:8080/newCasesPeak?country=israel
+
+### Response
+
+     {“country”:”israel”,“method”:“newCasesPeak”,”date”:“9/12/20”,“value”:4158}
+     
+## Get new death peak
+### Request
+
+    curl localhost:8080/deathsPeak?country=israel
+
+### Response
+
+    {“country”:”israel”,“method”:“deathsPeak”,”date”:“9/12/20”,“value”:110}
+    
+## Get new recoverd peak
+### Request
+
+`new recoverd peak`
+
+     curl localhost:8080/recoveredPeak?country=israel
+
+### Response
+
+     {“country”:”israel”,“method”:“recoveredPeak”,”date”:“9/12/20”,“value”:11000}
+    
+
+# How to run Jenkinsfile pipeline:
 
 # installation:
 
