@@ -60,7 +60,7 @@ Verify that git is define.
 
 Second download and install Docker.
 
-Thits download to jenkins the following plugin:
+Third, download to jenkins the following plugin:
 Docker pipeline.
 Docker.
   
