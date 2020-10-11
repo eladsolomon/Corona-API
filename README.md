@@ -3,10 +3,10 @@
 This project include python service that allowed you to send request and recive answer in json format.
 The service will run on localhost:8080
 
-#Using
+
 ## Get Status
 ### Request
-
+Returns a value of success / fail to contact the backend API.
     curl localhost:8080/status
 
 ### Response
@@ -14,7 +14,8 @@ The service will run on localhost:8080
     {“status”: “success”}
 
 ## Get new cases peak
-    
+Returns the date (and value) of the highest peak of new
+Covid-19 cases in the last 30 days for a required country.   
 ### Request
 
     curl localhost:8080/newCasesPeak?country=israel
@@ -24,6 +25,8 @@ The service will run on localhost:8080
      {“country”:”israel”,“method”:“newCasesPeak”,”date”:“9/12/20”,“value”:4158}
      
 ## Get new death peak
+Returns the date (and value) of the highest peak of recovered
+Covid-19 cases in the last 30 days for the required country.
 ### Request
 
     curl localhost:8080/deathsPeak?country=israel
@@ -33,6 +36,8 @@ The service will run on localhost:8080
     {“country”:”israel”,“method”:“deathsPeak”,”date”:“9/12/20”,“value”:110}
     
 ## Get new recoverd peak
+Returns the date (and value) of the highest peak of death Covid-19
+cases in the last 30 days for a required country.
 ### Request
 
 `new recoverd peak`
