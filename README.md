@@ -1,6 +1,7 @@
 # Corona-API
 
 This project include python service that allowed you to send request and recive answer in json format.
+Using Jenkins and Docker.
 The service will run on localhost:8080
 
 
